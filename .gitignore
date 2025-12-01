@@ -1,0 +1,44 @@
+# Archivos compilados
+*.exe
+*.o
+*.obj
+*.dll
+*.lib
+*.a
+*.so
+*.dylib
+
+# Carpetas de compilación
+build/
+out/
+cmake-build-*/
+
+# Archivos de configuración del IDE
+.vs/
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+*.vcxproj*
+*.sln
+
+# Archivos temporales
+*.tmp
+*.temp
+*.log
+*~
+.DS_Store
+Thumbs.db
+
+# Cache de CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Archivos de depuración
+*.pdb
+*.ilk
+
+# Archivos de sistema Windows
+desktop.ini
+$RECYCLE.BIN/
